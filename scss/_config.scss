@@ -1,0 +1,25 @@
+// Variables
+$primary-color: #ffcd2d;
+$light-color: #fff;
+$dark-color: #333;
+$medium-color: #ccc;
+$website-width: 1280px;
+$bg-image: url('../img/bg-image.jpg');
+
+.container {
+  max-width: $website-width;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+// Set Text Color 
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  }
+
+  @else {
+    @return #fff;
+  }
+}

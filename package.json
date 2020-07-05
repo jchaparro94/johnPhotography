@@ -1,0 +1,22 @@
+{
+  "name": "johnphotography",
+  "version": "1.0.0",
+  "description": "mock photography page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchaparro94/johnPhotography.git"
+  },
+  "author": "Jose Chaparro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jchaparro94/johnPhotography/issues"
+  },
+  "homepage": "https://github.com/jchaparro94/johnPhotography#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
